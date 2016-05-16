@@ -14,15 +14,15 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="To je Druga Stran "
-        android:id="@+id/text2"
+        android:id="@+id/temperature"
+        android:text.Size
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Osnovna Stran"
-        android:id="@+id/second_back"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView" />
+
 </RelativeLayout>

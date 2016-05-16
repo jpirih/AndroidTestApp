@@ -16,17 +16,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        Button backMain = (Button) findViewById(R.id.second_back);
-        backMain.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Log.v(TAG, "Nazaj na glavno stran");
-                Intent intent = new Intent(SecondActivity.this, MainActivity.class);
-                startActivity(intent);
 
-
-            }
-        });
 
     }
     
